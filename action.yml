@@ -3,7 +3,8 @@ branding:
   icon: 'target'  
   color: 'green'
 description: 'Whitelists or unwhitelists domains for appreciation engine'
-inputs:
+inputs:- name: Appreciation Engine Whitelist
+  uses: phantomstudios/appreciation-engine-whitelist@v0.0.2
   operation: 
     description: 'Whitelist or unwhitelist'
     required: false
